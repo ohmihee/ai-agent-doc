@@ -9,7 +9,8 @@ from examples import generate_summary, analyze_image_url
     
 if __name__ == "__main__":
     # result = generate_summary("파이썬 파일이 실행될 때, 파이썬은 내부적으로 __name__이라는 변수에 이름을 붙여줍니다. 파일을 직접 실행하면 그 이름은 자동으로 __main__이 됩니다.다른 파일에서 도구로 불러오면 그 이름은 파일의 이름이 됩니다.")
-    result = analyze_image_url()
+    url = "https://upload.wikimedia.org/wikipedia/commons/3/3b/LeBron_James_Layup_%28Cleveland_vs_Brooklyn_2018%29.jpg"
+    result = analyze_image_url(url)
     print(result)
     
 # 파이썬 파일이 실행될 때 파이썬은 내부적으로 __name__ 이라는 변수에 이름을 붙인다.
